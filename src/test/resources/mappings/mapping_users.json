@@ -1,0 +1,19 @@
+{
+  "id" : "8af192aa-16d1-4fb4-8a05-086c774617e2",
+  "request" : {
+    "url" : "/external-context-path/users",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"_embedded\":{\"users\":[{\"id\":1,\"name\":\"thiago\",\"email\":\"thiagocavalcantireis@gmail.com\",\"_links\":{\"self\":{\"href\":\"http://localhost:9999/external-context-path/user/1\"},\"tasks\":{\"href\":\"http://localhost:9999/external-context-path/user/1\"}}}]},\"_links\":{\"self\":{\"href\":\"http://localhost:9999/external-context-path/users?page=0&size=1\"}},\"page\":{\"size\":1,\"totalElements\":1,\"totalPages\":1,\"number\":0}}",
+    "headers" : {
+      "Date" : "Wed, 26 May 2021 18:49:51 GMT",
+      "Content-Type" : "application/hal+json",
+      "X-Vcap-Request-Id" : "51ad5416-b2c6-426b-56fb-d516e40c1b51"
+    }
+  },
+  "uuid" : "8af192aa-16d1-4fb4-8a05-086c774617e2",
+  "persistent" : true,
+  "insertionIndex" : 2
+}
